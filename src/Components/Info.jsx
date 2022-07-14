@@ -2,6 +2,7 @@ import React from 'react';
 import foto from '../images/foto-cv.png';
 import linkedinLogo from '../images/linkedin.png'
 import emailLogo from '../images/Mail.png'
+import githubLogo from '../images/GitHub-Icon.png'
 function Info() {
   return (
     <div className="info-container">
@@ -13,12 +14,17 @@ function Info() {
       <button
         type='email'
         className='email-btn'>
-        <img src={emailLogo} alt='email-logo' className='img-btn'></img> 
+        <img src={emailLogo} alt='email-logo' className='img-btn'></img>
         <a href="mailto:pablorodz9@hotmail.com">Email</a>
       </button>
       <button className='linkedin-btn'>
         <img src={linkedinLogo} alt="linkedin-logo" className='img-btn' />
         <a href="https://www.linkedin.com/in/pablo-rodriguez-00a038210/" target="_blank">Linkedin</a>
+      </button>
+      <br />
+      <button className='github-btn'> <a href="https://github.com/PabloRodrz" target="blank" >
+        <img src={githubLogo} alt="github-logo">
+        </img> </a>
       </button>
     </div>
   )
