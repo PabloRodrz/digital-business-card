@@ -22,9 +22,11 @@ function Info() {
         <a href="https://www.linkedin.com/in/pablo-rodriguez-00a038210/" target="_blank">Linkedin</a>
       </button>
       <br />
-      <button className='github-btn'> <a href="https://github.com/PabloRodrz" target="blank" >
-        <img src={githubLogo} alt="github-logo">
-        </img> </a>
+      <button className='github-btn'>
+        <a className='btn-a' href="https://github.com/PabloRodrz" target="blank" >
+          <img src={githubLogo} alt="github-logo"></img>
+          GitHub
+        </a>
       </button>
     </div>
   )

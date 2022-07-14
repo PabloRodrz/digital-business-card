@@ -39,6 +39,7 @@ body {
 .info-container > h4{
   color: #F3BF99;
 }
+
 .interests-container {
   margin-top: -70px;
   padding: 33px;
@@ -57,10 +58,6 @@ body {
   border-bottom-left-radius: 20px;
   border-bottom-right-radius: 20px;
   background: #161619;
-}
-
-.footer-container > a > img{
-  padding-top: 3px;
 }
 
 .linkedin-btn {
@@ -102,6 +99,14 @@ a {
   background-color:black;
 }
 
+.btn-a {
+  font-size: medium;
+  color: #F5F5F5;
+  display: flex;
+  justify-content: center;
+}
+
 .github-btn > a > img{
-  padding-top: 3px;
+  margin-right: 5px;
+  height: 18px;
 }
